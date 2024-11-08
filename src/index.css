@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --themeColor: #002397;
+  --themeColorLight: #fffcf3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: var(--themeColorLight);
+  color: hsl(0, 0%, 13%);
+  font-family: "Futura", serif;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("/fonts/futura.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("/fonts/coolvetica.otf") format("opentype");
+}

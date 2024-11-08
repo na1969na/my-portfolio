@@ -1,0 +1,14 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  background-color: black;
+  color: var(--themeColorLight);
+  
+}
+
+/* @media(max-width:768px){
+  .footer{
+  }
+} */

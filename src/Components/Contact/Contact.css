@@ -1,0 +1,83 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0px;
+  background-image: url("../../assets/cactus.jpg");
+  color: #fdfdfd;
+}
+
+.contact-title {
+  position: relative;
+}
+
+.contact-title h1 {
+  padding: 0px 30px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.my-email p {
+  display: flex;
+  gap: 15px;
+  border-radius: 50px;
+  border: 2px solid white;
+  padding: 30px 60px;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 80px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-getintouch :hover {
+  background-color: black;
+  color: #fdfdfd;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+
+.contact-section {
+  width: 60%;
+  align-items: center;
+  font-size: 28px;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  padding: 50px 50px;
+  border-radius: 40px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.contact-link li:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .contact-title h1 {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    padding: 0px 20px;
+    font-size: 20px;
+  }
+
+  .contact-getintouch {
+    padding: 0px 50px;
+    border-radius: 40px;
+  }
+}
